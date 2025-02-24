@@ -1,7 +1,7 @@
 first_name = "Lindokuhle"
 last_name = "Yende"
 
-print("Hello "+first_name + " "+ last_name)
+print(f"Hello {first_name} {last_name}")
 
 my_sentence = "cats are soo scary"
 
