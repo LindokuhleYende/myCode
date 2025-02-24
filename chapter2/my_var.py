@@ -1,7 +1,7 @@
 first_name = "Lindokuhle"
 last_name = "Yende"
-
-print(f"Hello {first_name} {last_name}")
+day = "Moday"
+print(f"Hello {first_name} {last_name}, have a lovely {day}")
 
 my_sentence = "cats are soo scary"
 
