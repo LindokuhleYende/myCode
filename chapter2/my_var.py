@@ -26,3 +26,6 @@ print(nostarch_url.removeprefix('https://'))
 #There are no built in constant variables in python, but you can create an all upper
 #case var just to show other programers that the variable should remain unchanged
 
+name, surname, time, date = "Lee", "Yende", "13:30", "24/02"
+
+print(name, surname, time, date)
