@@ -22,3 +22,7 @@ print("Lindo  ".rstrip())
 ## Removes the prefix of url
 nostarch_url = "https://nostarch.com"
 print(nostarch_url.removeprefix('https://'))
+
+#There are no built in constant variables in python, but you can create an all upper
+#case var just to show other programers that the variable should remain unchanged
+
