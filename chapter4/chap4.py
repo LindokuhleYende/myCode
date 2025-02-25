@@ -23,6 +23,8 @@ print(cube)
 
 power_3 = [x**3 for x in range(1,11)]
 print(power_3)
+print("The minimum num is", min(power_3))
+print("The maximum num is", max(power_3))
 ###The end of using loops do some math
 
 ##Slicing
@@ -34,3 +36,13 @@ print(my_tuples)
 
 print(my_tuples[1:4])
 print(len(my_tuples))
+
+buffet = ("steak", "Beef stew", "Hake", "Chicken stripes", "Nuggests") 
+for food in buffet:
+    print(food)
+
+#The restaurant changes its menu, replacing two of the items with different food
+buffet = ("Beef burgers", "Beef stew", "Hake", "Chicken stripes", "Russian Rolls")
+print("The new and revised menu:")
+for food in buffet:
+    print(food)
