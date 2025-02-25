@@ -22,4 +22,7 @@ top_cars.reverse()
 print(top_cars)
 
 places = ["Paris", "London", "Japan", "Cape Town"]
+print(places)
+print(sorted(places))
+print(places)
 print(places[4::-1])
