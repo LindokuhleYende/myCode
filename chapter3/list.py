@@ -20,6 +20,8 @@ print(last_car)
 print(top_cars)
 top_cars.reverse()
 print(top_cars)
+top_cars.remove("aston martin")
+print(top_cars)
 
 places = ["Paris", "London", "Japan", "Cape Town"]
 print(places)
