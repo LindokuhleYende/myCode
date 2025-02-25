@@ -31,3 +31,6 @@ print(fruits[5::-1])
 
 my_tuples = ("Five", "5", "hello", "red")
 print(my_tuples)
+
+print(my_tuples[1:4])
+print(len(my_tuples))
