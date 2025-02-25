@@ -2,6 +2,7 @@ first_name = "Lindokuhle"
 last_name = "Yende"
 day = "Moday"
 print(f"Hello {first_name} {last_name}, have a lovely {day}")
+print(first_name + " "+ last_name)
 
 my_sentence = "cats are soo scary"
 
@@ -25,7 +26,9 @@ print(nostarch_url.removeprefix('https://'))
 
 #There are no built in constant variables in python, but you can create an all upper
 #case var just to show other programers that the variable should remain unchanged
-
 name, surname, time, date = "Lee", "Yende", "13:30", "24/02"
 
 print(name, surname, time, date)
+
+import this
+#The Zen of Python by Tim
