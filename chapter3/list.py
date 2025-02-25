@@ -13,4 +13,5 @@ print(my_fruit)
 
 
 top_cars = ["G-Wagon", "Omoda", "Bently", "Mersarati", "aston martin", "Rolls Royce"]
-print(top_cars.pop())
+last_car = top_cars.pop()
+print(last_car)
