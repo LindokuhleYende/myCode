@@ -14,4 +14,7 @@ print(my_fruit)
 
 top_cars = ["G-Wagon", "Omoda", "Bently", "Mersarati", "aston martin", "Rolls Royce"]
 last_car = top_cars.pop()
+top_cars.sort()
+
 print(last_car)
+print(top_cars)
