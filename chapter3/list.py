@@ -5,7 +5,12 @@ for peer in my_class:
 
 print(my_class[1])
 
+
 my_fruit = ["Banana", "Apple", "Orange"]
 my_fruit.insert(1, "Strawberry")
 
 print(my_fruit)
+
+
+top_cars = ["G-Wagon", "Omoda", "Bently", "Mersarati", "aston martin", "Rolls Royce"]
+print(top_cars.pop())
