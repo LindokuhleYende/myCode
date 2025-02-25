@@ -1,9 +1,10 @@
-my_class = ["Aidan", "Asanda", "Cadee", "Courtney", "Ethan", "Lesedi", "Lindo", "Marvelous", "Mieke", "Phomello","Sibu", "Ronny", "Tom", "Ulrich"]
-my_class.append("Everybody")
-for peer in my_class:
-    print("Good Day", peer)
+guest_list = ["Aidan", "Asanda", "Cadee", "Courtney", "Ethan", "Lesedi", "Lindo", "Marvelous", "Mieke", "Phomello","Sibu", "Ronny", "Tom", "Ulrich"]
+guest_list.append("Everybody")
+for guest in guest_list:
+    print("You are invited", guest)
 
-print(my_class[1])
+print(guest_list[1])
+print(len(guest_list))
 
 
 my_fruit = ["Banana", "Apple", "Orange"]
