@@ -18,3 +18,5 @@ top_cars.sort()
 
 print(last_car)
 print(top_cars)
+top_cars.reverse()
+print(top_cars)
