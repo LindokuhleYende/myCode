@@ -30,6 +30,7 @@ print("The maximum num is", max(power_3))
 ##Slicing
 print(fruits)
 print(fruits[5::-1])
+print(fruits[2:5])
 
 my_tuples = ("Five", "5", "hello", "red")
 print(my_tuples)
