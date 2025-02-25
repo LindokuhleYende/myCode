@@ -24,3 +24,7 @@ print(cube)
 power_3 = [x**3 for x in range(1,11)]
 print(power_3)
 ###The end of using loops do some math
+
+##Slicing
+print(fruits)
+print(fruits[5::-1])
