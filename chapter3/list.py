@@ -4,7 +4,7 @@ for guest in guest_list:
     print("You are invited", guest)
 
 print(guest_list[1])
-print(len(guest_list))
+print("The number of guests invited is", len(guest_list))
 
 
 my_fruit = ["Banana", "Apple", "Orange"]
