@@ -28,3 +28,6 @@ print(power_3)
 ##Slicing
 print(fruits)
 print(fruits[5::-1])
+
+my_tuples = ("Five", "5", "hello", "red")
+print(my_tuples)
