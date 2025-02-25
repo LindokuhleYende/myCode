@@ -3,7 +3,7 @@ fruits = ["Oranges", "Bananas", "Apples", "Strawberrys", "Grapes"]
 for x in fruits:
     print("Good day to eat some", x)
 
-
+#test yourself 
 pizzas = ["Pineapple", "Pepperoni", "cheese", "Beef", "Spicy chicken"]
 
 for pizza in pizzas:
