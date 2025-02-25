@@ -4,3 +4,8 @@ for peer in my_class:
     print("Good Day", peer)
 
 print(my_class[1])
+
+my_fruit = ["Banana", "Apple", "Orange"]
+my_fruit.insert(1, "Strawberry")
+
+print(my_fruit)
