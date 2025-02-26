@@ -58,3 +58,16 @@ for user in username:
         print("Hello admin,would you like to see a status report?")
     else:
         print(f"Hello {user}, thank you for logging in again!")
+    
+# 5-11. Ordinal Numbers: Ordinal numbers indicate their position in a list, such as
+# 1st or 2nd. Most ordinal numbers end in th, except 1, 2, and 3.
+
+for i in range(1,10):
+    if i == 1:
+        print("1st")
+    elif i == 2:
+        print("2nd")
+    elif i == 3:
+        print("3rd")
+    else:
+        print(f"{i}th")
