@@ -14,3 +14,12 @@ if num%10 == 0:
     print(f"The number {num} is a multiple of 10")
 else:
     print(f"The number {num} is not a multiple of 10")
+
+
+## working while loops and user input
+
+prompt = input("Enter quit if you want to stop adding pizza toppings ")
+while prompt.lower() != "quit":
+    toppings = input("Enter pizza toppings ")
+    print(f"You will add {toppings} to your pizza")
+    prompt = input("Enter quit if you want to stop adding pizza toppings ")
