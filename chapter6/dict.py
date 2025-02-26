@@ -8,7 +8,7 @@ print(f"The person in question is {person1['name']} {person1['surname']} is aged
 #Add a new property to person1
 person1["marital status"] = "Married"
 print(person1)
-
+print("\n")
 #Glossary
 programming_words = {
     "variable": "A named container that stores a piece of data which can change throughout the program",
@@ -18,3 +18,5 @@ programming_words = {
     "Terminal": "Text-based interface where you can type commands directly to your computer's operating system"
 }
 print("What is a Loop:", programming_words["loop"])
+print("\n")
+print("What is a Terminal:", programming_words["Terminal"])
