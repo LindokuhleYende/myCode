@@ -26,4 +26,19 @@ print("\n")
 print("What is a dictionary:", programming_words["Dictionary"])
 print("\n")
 print("What is a List/Array:", programming_words["List"])
-
+print("\n")
+#Looping through a dictionary
+# for k,v in person1.items():
+    # print(f"The key is {k}: The value {v}")
+    # if person1.get("age")>20:
+        # print(f"{person1['name']} is an adult")
+    # elif person1.get("age")<20:
+        # print(f"Hi {person1.get("name")}, you are still young!!")
+    # else:
+        # print(f"Wow! {person1['name']}, you have lived life..")
+    # break
+for values in person1.values():
+    if values =="Molapo":
+        print("NICE PLACE ^j^")
+    else:
+        print("Oooh oooh!")
