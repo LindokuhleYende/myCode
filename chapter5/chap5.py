@@ -47,3 +47,15 @@ elif age>=20 and age<65:
     print("You are an adult now!")
 else:
     print("You are an elder")
+
+# 5-8. Hello Admin: Make a list of five or more usernames, including the name
+# 'admin'. Imagine you are writing code that will print a greeting to each user
+# after they log in to a website. Loop through the list, and print a greeting to
+# each user.
+username = ["Siyanda", "Phindile", "Admin", "Nolitha", "Zanokuhle", "Thabisile", "Jabu", "Phonny"]
+
+for user in username:
+    if user.lower() == "admin":
+        print("Hello admin,would you like to see a status report?")
+    else:
+        print(f"Hello {user}, thank you for logging in again!")
