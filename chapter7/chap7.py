@@ -18,7 +18,7 @@ else:
 
 ## working while loops and user input
 
-prompt = input("Enter quit if you want to stop adding pizza toppings ")
+prompt = input("Enter start to start adding toppings to your pizza: ")
 while prompt.lower() != "quit":
     toppings = input("Enter pizza toppings ")
     print(f"You will add {toppings} to your pizza")
