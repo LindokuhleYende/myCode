@@ -7,3 +7,10 @@ if resturant>8:
     print("Please wait for a table!")
 else:
     print("Your table is ready.. ")
+
+num = int(input("Please enter any number: "))
+
+if num%10 == 0:
+    print(f"The number {num} is a multIiple of 10")
+else:
+    print(f"The number {num} is not a multiple of 10")
