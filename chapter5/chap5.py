@@ -1,10 +1,3 @@
-car = 'subaru'
-print("Is car == 'subaru'? I predict True.")
-print(car == 'subaru')
-print("\nIs car == 'audi'? I predict False.")
-print(car == 'audi')
-
-
 #Try it yourself
 # Alien Colors #1: Imagine an alien was just shot down in a game. Create a
 # variable called alien_color and assign it a value of 'green', 'yellow', or 'red'.
