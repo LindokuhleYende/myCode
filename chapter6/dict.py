@@ -20,3 +20,10 @@ programming_words = {
 print("What is a Loop:", programming_words["loop"])
 print("\n")
 print("What is a Terminal:", programming_words["Terminal"])
+print("\n")
+print("What is a variable:", programming_words["variable"])
+print("\n")
+print("What is a dictionary:", programming_words["Dictionary"])
+print("\n")
+print("What is a List/Array:", programming_words["List"])
+
