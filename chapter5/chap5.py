@@ -21,8 +21,8 @@
 # • Write three versions of this program, making sure each message is printed
 # for the appropriate color alien.
 
-#alien_color = input("Enter alien color: choose between green, yellow and red.::")
-alien_color = "red"
+alien_color = input("Enter alien color: choose between green, yellow and red.::")
+#alien_color = "red"
 if alien_color == "green":
     print("Good, You just earned 5 points.")
 elif alien_color == "yellow":
@@ -33,8 +33,7 @@ else:
     print("Sorry! There are no aliens with that color in this game. \nTry Again!!")
 
 #Stages of life
-age = 54
-
+age = int(input("Please enter your age:"))
 if age<2:
     print("Just a baby")
 elif age>=2 and age<4:
