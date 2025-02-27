@@ -21,3 +21,34 @@ def describe_city(city, country= "RSA"):
     
 output = describe_city(input("Enter your city: "))
 print(output)
+
+#8-7. Album:
+def make_album(artist_name, album_title):
+    album = {
+        'artist': artist_name,
+        'title': album_title
+    }
+    return album
+while True:
+    print("\nEnter the album details. (Enter 'q' at any time to quit)")
+
+    artist = input("Artist name: ")
+    if artist == 'q':
+        break
+
+    title = input("Album title: ")
+    if title == 'q':
+        break
+
+    album = make_album(artist, title)
+    print("\nAlbum created:", album)
+
+# Creating three dictionaries for different albums
+# album1 = make_album('Taylor Swift', '1989')
+# album2 = make_album('Ed Sheeran', 'Divide')
+# album3 = make_album('Adele', '25')
+
+# Printing the albums
+# print(album1)
+# print(album2)
+# print(album3)
