@@ -6,6 +6,18 @@ def favorite_book(title):
     print("The name of my favorite books is", title)
 favorite_book("It ends with us")
 
-def describe_city(city, country):
+def describe_city(city, country= "RSA"):
     print(f"{city} is in {country}")
-describe_city("Cpt", "RSA")
+    if city=="Pretoria":
+        return f"{city}, ooh so you use a Gautrain.."
+    elif city == "Jhb":
+        return f"{city}, have you seen Vilakazi street"
+    elif city == "Cpt":
+        return f"{city}, have you been to Camps bay"
+    elif city == "Kimberly":
+        return f"{city}, have you seen the big hole of Diamonds"
+    else:
+        return f"I don't know {city}"
+    
+output = describe_city(input("Enter your city: "))
+print(output)
