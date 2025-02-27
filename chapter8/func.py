@@ -78,5 +78,3 @@ def send_messages():
     return sent_messages
 print(messages)
 print(send_messages())
-    
-    

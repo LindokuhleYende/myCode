@@ -4,9 +4,9 @@
 # that’s being ordered. Call the function three times, using a different number
 # of arguments each time.
 sandwich_list = []
-def sandwiches(*sandwich):
-    sandwich_list.append(sandwich)
-    print(f"This is what I want in my sandwich: {sandwich_list}")
+def sandwiches(*ingredients):
+    print(f"This is what I want in my sandwich: {', '.join(ingredients)}")
+
 sandwiches("tomato", "cheese")
 sandwiches("bacon", "sauce", "chips")
 sandwiches("cheese", "polony", "egg", "russian")
