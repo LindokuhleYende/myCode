@@ -74,7 +74,7 @@ def send_messages():
     i = 0
     while i<len(messages):
         sent_messages.append(messages[i])
-        # messages.remove(messages[i])
+        #messages.remove(messages[i])
     return sent_messages
 print(messages)
 print(send_messages())
