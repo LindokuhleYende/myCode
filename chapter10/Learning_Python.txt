@@ -1,3 +1,7 @@
 Learning Python
 
-In python you can use print to Prints the values to a stream, or to sys.stdout by default.
+In python you can use print to Print the values to a stream, or to sys.stdout by default.
+In python Comments starts with a #, and Python will ignore them.
+In python there are no command for declaring a variable.
+In python a variable is created the moment you first assign a value to it.
+In python there are three numeric types in Python: int, float, complex. 
