@@ -1,0 +1,3 @@
+Learning Python
+
+In python you can use print to Prints the values to a stream, or to sys.stdout by default.
