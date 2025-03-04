@@ -18,3 +18,16 @@ class Resturant:
 # lunch = Resturant("Taco town", "Mexican")
 # lunch.describe_restaurant()
 # lunch.open_restaurant()
+
+#9.6 Ice Cream Stand:
+class IceCreamStand(Resturant):
+    def __init__(self, name, cuisine_type, flavors):
+        super().__init__(name, cuisine_type)
+        self.flavors = flavors
+    def display_flavors(self):
+        print("We offer the following ice cream flavors:")
+        for flavor in self.flavors:
+            print(f"- {flavor}")
+my_ice_cream_stand = IceCreamStand("Sweet Scoops", "Dessert", ["Vanilla", "Chocolate", "Strawberry", "Mint"])
+my_ice_cream_stand.describe_restaurant()
+my_ice_cream_stand.display_flavors()
