@@ -1,10 +1,10 @@
-class Role:
+class Job:
 
     def __init__(self, position_name):
         self.position_name = position_name
 
-janitor = Role("Janitor")
-programmer = Role("Programmer")
-secretory = Role("Secretory")
-developer = Role("Developer")
-manager = Role("Manager")
+janitor = Job("Janitor")
+programmer = Job("Programmer")
+secretory = Job("Secretory")
+developer = Job("Developer")
+manager = Job("Manager")
