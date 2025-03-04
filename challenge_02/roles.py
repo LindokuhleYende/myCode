@@ -6,3 +6,5 @@ class Role:
 janitor = Role("Janitor")
 programmer = Role("Programmer")
 secretory = Role("Secretory")
+developer = Role("Developer")
+manager = Role("Manager")

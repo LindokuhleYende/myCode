@@ -1,4 +1,5 @@
-from roles import janitor, programmer, secretory
+# from roles import janitor, programmer, secretory
+from roles import *
 
 class SignUp:
 
