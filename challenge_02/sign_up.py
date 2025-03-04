@@ -7,8 +7,8 @@ class SignUp:
         self.choose_position()
 
     def get_user_details(self):
-        self.first_name = input("What is your first name: ").title()
-        self.second_name = input("What is your last name: ").title()
+        self.first_name = input("What is your first name: ").strip().title()
+        self.second_name = input("What is your last name: ").strip().title()
         self.email = input("What is your email: ")
 
         if self.first_name == "" or self.second_name == "" or self.email == "":
