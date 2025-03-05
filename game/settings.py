@@ -10,8 +10,8 @@ class Settings:
 
         # Ship settings
         self.ship_speed = 1.5
-        self.ship_width = 60  # New attribute for ship width
-        self.ship_height = 48  # New attribute for ship height
+        self.ship_width = 90  # New attribute for ship width
+        self.ship_height = 128  # New attribute for ship height
 
         # Bullet settings
         self.bullet_speed = 3.0
