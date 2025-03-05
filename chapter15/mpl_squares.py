@@ -1,12 +1,14 @@
 import matplotlib.pyplot as plt
-
-square = [1, 4, 9, 16, 25]
+import numpy as np
+ 
+x = np.array([1,2,3,4,5])
+square = np.array([1, 4, 9, 16, 25])
+plt.plot(x, square)
 # input_values = [1, 2, 3, 4, 5]
-fig, ax = plt.subplots()
-# 
+# fig, ax = plt.subplots()
+
 # plt.style.use('seaborn-v0_8')
 # ax.plot(input_values, square, linewidth=3)
-ax.plot(square)
 plt.show()
 
 # Set chart title and label axes.
