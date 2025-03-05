@@ -9,7 +9,7 @@ from ship import Ship
 class AlienInvasion:
     """Overall class to manage game assets and behavior."""
 
-    def init(self):
+    def __init__(self):
         """Initialize the game, and create game resources."""
         pygame.init()
         self.clock = pygame.time.Clock()
@@ -38,7 +38,7 @@ class AlienInvasion:
             self.clock.tick(60)
 
 
-if __name__ == 'main':
+if __name__ == '__main__':
     # Make a game instance, and run the game.
     ai = AlienInvasion()
     ai.run_game()
