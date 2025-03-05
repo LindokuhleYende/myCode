@@ -10,6 +10,8 @@ class Ship:
         self.rect = self.image.get_rect()
         # Start each new ship at the bottom center of the screen.
         self.rect.midbottom = self.screen_rect.midbottom
+        self.moving_right = False
+        self.moving_left = False
     
     def update(self):
         """Update the ship's position based on movement flags."""
