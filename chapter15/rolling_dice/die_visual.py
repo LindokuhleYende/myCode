@@ -5,7 +5,10 @@ import plotly.express as px
 die= Die()
 die_2 = Die(10)
 
-results =[die.roll() + die_2.roll() for roll_num in range(50000)]
+results =[]
+for roll_num in range(50000):
+    results = die.roll() + die_2.roll()
+    results.append(results)
 #print(results)
 
 #Analysing the results
@@ -18,7 +21,7 @@ for value in poss_values:
 #print(frequencies)
 
 #Result visualization
-title = "Results of Rolling a Six sided Die for 1000 times"
+title = "Results of Rolling a Six and Ten sided Die for 50_000 times"
 labels = {"x":"Results", "y":"Frequency of result"}
 fig = px.bar(x=poss_values, y=frequencies, title=title, labels= labels )
 #fig.show()
