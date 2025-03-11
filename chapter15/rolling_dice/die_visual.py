@@ -4,8 +4,8 @@ import plotly.express as px
 #By default the num_sides =6 
 die= Die()
 die_2 = Die(10)
-die_total = die.roll() + die_2.roll()
-results =[die_total for roll_num in range(50000)]
+
+results =[die.roll() + die_2.roll() for roll_num in range(50000)]
 #print(results)
 
 #Analysing the results
