@@ -15,3 +15,7 @@ for value in poss_values:
     frequency = results.count(value)
     frequencies.append(frequency)
 #print(frequencies)
+
+#Result visualization
+fig = px.bar(x=poss_values, y=frequencies)
+fig.show()
