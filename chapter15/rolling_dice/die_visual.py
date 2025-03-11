@@ -20,4 +20,5 @@ for value in poss_values:
 title = "Results of Rolling a Six sided Die for 1000 times"
 labels = {"x":"Results", "y":"Frequency of result"}
 fig = px.bar(x=poss_values, y=frequencies, title=title, labels= labels )
-fig.show()
+#fig.show()
+fig.write_html("myCode/chapter15/rolling_dice/roll.html")
