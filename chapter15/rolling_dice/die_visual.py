@@ -7,8 +7,8 @@ die_2 = Die(10)
 
 results =[]
 for roll_num in range(50000):
-    results = die.roll() + die_2.roll()
-    results.append(results)
+    result = die.roll() + die_2.roll()
+    results.append(result)
 #print(results)
 
 #Analysing the results
