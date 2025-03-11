@@ -2,9 +2,10 @@ from roll_die import Die
 import plotly.express as px
 
 #By default the num_sides =6 
-die = Die()
-
-results =[die.roll() for roll_num in range(100)]
+die= Die()
+die_2 = Die(10)
+die_total = die.roll() + die_2()
+results =[die_total for roll_num in range(50000)]
 #print(results)
 
 #Analysing the results
