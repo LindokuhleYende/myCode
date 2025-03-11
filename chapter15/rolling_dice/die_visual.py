@@ -13,7 +13,7 @@ for roll_num in range(50000):
 
 #Analysing the results
 frequencies = []
-poss_values = range(1, 11)
+poss_values = range(1, Die.num_sides)
 
 for value in poss_values:
     frequency = results.count(value)
