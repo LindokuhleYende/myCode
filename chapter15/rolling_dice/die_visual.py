@@ -1,4 +1,5 @@
 from roll_die import Die
+import plotly.express as px
 
 #By default the num_sides =6 
 die = Die()
