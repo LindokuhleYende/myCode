@@ -28,7 +28,7 @@ for i in range(len(bin_edges) - 1):
     gradient = np.repeat(gradient[:, np.newaxis, :], 256, axis=1)  # Expand to RGB
 
     # Create an image within the histogram bar
-    ax.imshow(gradient, extent=[left, right, bottom, top], aspect='auto', alpha=0.8)
+    #ax.imshow(gradient, extent=[left, right, bottom, top], aspect='auto', alpha=0.8)
 
 #Set labels and show the plot
 ax.set_xlim(bin_edges[0], bin_edges[-1])
