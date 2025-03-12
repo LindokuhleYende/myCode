@@ -15,3 +15,19 @@ df2["DATE"] = pd.to_datetime(df2['DATE'])
 
 # Calculate the average temperature for each day for sikta
 df1['TAVG'] = (df1['TMAX'] + df1['TMIN']) / 2
+
+average = (df2["TMAX"] + df2["TMIN"])/2
+
+plt.plot(df1['DATE'], df1['TAVG'], label="Average Temperature", color="green")
+
+# Add labels, title, and legend
+plt.xlabel('Date')
+plt.ylabel('Temperature (°F)')
+plt.title('Daily Temperatures in Sitka Vs Death Valleyc (2021)')
+plt.legend()
+plt.grid(True)
+plt.xticks(rotation=45)  # Rotate x-axis labels for better readability
+plt.tight_layout()
+
+# Display the graph
+plt.show()
