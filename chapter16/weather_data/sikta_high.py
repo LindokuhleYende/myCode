@@ -34,7 +34,26 @@
 # plt.show()
 
 import pandas as pd
+import matplotlib.pyplot as plt
 filepath = r'C:\Users\Lindokuhle Yende\OneDrive\Desktop\CodeCollege\python\myCode\chapter16\weather_data\sitka_weather_2021_simple-original.csv'
 df = pd.read_csv(filepath)
 
 print(df.head())
+
+df["DATE"] = pd.to_datetime(df['DATE'])
+# Plot the maximum and minimum temperatures
+plt.figure(figsize=(12, 6))
+plt.plot(df['DATE'], df['TMAX'], label='Maximum Temperature (TMAX)', color='red')
+plt.plot(df['DATE'], df['TMIN'], label='Minimum Temperature (TMIN)', color='blue')
+
+# Add labels, title, and legend
+plt.xlabel('Date')
+plt.ylabel('Temperature (°F)')
+plt.title('Daily Maximum and Minimum Temperatures in Sitka, Alaska (2021)')
+plt.legend()
+plt.grid(True)
+plt.xticks(rotation=45)  # Rotate x-axis labels for better readability
+plt.tight_layout()
+
+# Display the graph
+plt.show()
