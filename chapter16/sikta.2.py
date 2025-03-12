@@ -10,5 +10,6 @@ plt.plot(df['DATE'], df["PRCP"])
 plt.xlabel("Date")
 plt.ylabel("Precipitaion(Raifall)")
 plt.title("Daily rainfall amounts")
+plt.tight_layout()
 plt.xticks(rotation=45)  # Rotate x-axis labels for better readability
 plt.show()
