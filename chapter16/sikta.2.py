@@ -7,4 +7,8 @@ print(df.head())
 
 df["DATE"] = pd.to_datetime(df['DATE'])
 plt.plot(df['DATE'], df["PRCP"])
+plt.xlabel("Date")
+plt.ylabel("Precipitaion(Raifall)")
+plt.title("Daily rainfall amounts")
+plt.xticks(rotation=45)  # Rotate x-axis labels for better readability
 plt.show()
