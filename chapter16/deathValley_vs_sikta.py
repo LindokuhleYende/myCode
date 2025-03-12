@@ -12,3 +12,6 @@ print(df2.head())
 
 df1["DATE"] = pd.to_datetime(df1['DATE'])
 df2["DATE"] = pd.to_datetime(df2['DATE'])
+
+# Calculate the average temperature for each day for sikta
+df1['TAVG'] = (df1['TMAX'] + df1['TMIN']) / 2
