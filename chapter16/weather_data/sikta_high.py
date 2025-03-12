@@ -41,10 +41,15 @@ df = pd.read_csv(filepath)
 print(df.head())
 
 df["DATE"] = pd.to_datetime(df['DATE'])
+
+# Calculate the average temperature for each day
+df['TAVG'] = (df['TMAX'] + df['TMIN']) / 2
+
 # Plot the maximum and minimum temperatures
 plt.figure(figsize=(12, 6))
 plt.plot(df['DATE'], df['TMAX'], label='Maximum Temperature (TMAX)', color='red')
 plt.plot(df['DATE'], df['TMIN'], label='Minimum Temperature (TMIN)', color='blue')
+plt.plot(df['DATE'], df['TAVG'], label="Average Temperature", color="green", linewidth=5)
 
 # Add labels, title, and legend
 plt.xlabel('Date')
