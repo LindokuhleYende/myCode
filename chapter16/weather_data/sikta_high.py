@@ -34,6 +34,7 @@
 # plt.show()
 
 import pandas as pd
-df = pd.read_csv('weather_data/sitka_weather_2021_simple.cs')
+filepath = r'C:\Users\Lindokuhle Yende\OneDrive\Desktop\CodeCollege\python\myCode\chapter16\weather_data\sitka_weather_2021_simple-original.csv'
+df = pd.read_csv(filepath)
 
 print(df.head())
