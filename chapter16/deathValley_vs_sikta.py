@@ -18,7 +18,8 @@ df1['TAVG'] = (df1['TMAX'] + df1['TMIN']) / 2
 
 average = (df2["TMAX"] + df2["TMIN"])/2
 
-plt.plot(df1['DATE'], df1['TAVG'], label="Average Temperature", color="green")
+plt.plot(df1['DATE'], df1['TAVG'], label="Average Temperature for Sikta", color="green")
+plt.plot(df1["DATE"], average, label= "Average Temperature for Death Valley", color= "red")
 
 # Add labels, title, and legend
 plt.xlabel('Date')
