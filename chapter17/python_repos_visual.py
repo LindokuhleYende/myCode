@@ -8,10 +8,10 @@ url += "?q=language:python+sort:stars+stars:>10000"
 
 headers = {"Accept": "application/vnd.github.v3+json"}
 r = requests.get(url, headers=headers)
-print(f"Status code: {r.status_code}")
+print(f"Status code: {r.status_code}") # checks the status code
 
 # Process overall results.
-response_dict = r.json()
+response_dict = r.json() #convert into a dictionary
 print(f"Complete results: {not response_dict['incomplete_results']}")
 
 # Process repository information.
