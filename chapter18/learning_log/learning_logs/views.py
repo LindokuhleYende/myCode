@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from .models import Topic
+from .forms import TopicForm
 
 # Create your views here.
 def index(request):
