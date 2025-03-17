@@ -42,8 +42,12 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 ]
+#Login of user account
+LOGIN_REDIRECT_URL = 'learning_logs:index'
 #Logout of user account
 LOGOUT_REDIRECT_URL = 'learning_logs:index'
+
+LOGIN_URL = 'accounts:login'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
